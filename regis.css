@@ -1,0 +1,35 @@
+body {
+    background-color: lightblue;
+}
+form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+textarea {
+    width: 400px;
+    padding: 8px;
+    margin-top: 5px;
+}
+.gender {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.gender input {
+    width: auto;
+}
+.submit-button {
+    margin-top: 20px;
+    cursor: pointer;
+}
+.submit-button:hover {
+    background-color: #45a049;
+}
